@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+import java.util.List;
+public class Main {
+  public static void main(String[] args) {
+  
+    List<String> nomes = new ArrayList <>();
+    
+    nomes.add("Alicia");
+    nomes.add("Luiz");
+    nomes.add("Maria");
+  
+    System.out.println(nomes);
+  }
+}
