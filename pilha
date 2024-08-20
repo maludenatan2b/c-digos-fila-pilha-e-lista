@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+        List<Integer> pilha = new ArrayList<>();
+        pilha.add(10);
+        pilha.add(20);
+        pilha.add(30);
+
+        System.out.println("Pilha: " + pilha);
+
+        int topo = pilha.get(pilha.size() - 1);
+        System.out.println("Topo da pilha: " + topo);
+
+        pilha.remove(pilha.size() - 1);
+        System.out.println("Pilha após remover o topo: " + pilha);
+    }
+}
